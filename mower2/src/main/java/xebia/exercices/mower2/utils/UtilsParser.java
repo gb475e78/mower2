@@ -17,7 +17,6 @@ public final class UtilsParser {
 
 	public static final Pattern FILE_LINE_HEADER = Pattern.compile("([0-9]*)\\s([0-9]*)");
 	public static final Pattern FILE_LINE_TONDEUSE = Pattern.compile("([0-9]*)\\s([0-9]*)\\s([NESO])");
-	public static final Pattern FILE_LINE_COMMANDE = Pattern.compile("[GDA]");
 
 	private UtilsParser() {
 	}
